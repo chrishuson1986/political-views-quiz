@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Political meter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Political view quiz</h1>
+      <div id="form-quiz">
+        <form id="formOne">
+          <div class="form-group">
+            <label for="equality">Do you think people should have equal rights?</label>
+            <select class="form-control" id="equality">
+              <option>yes</option>
+              <option>no</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="diversity">Do you think diversity is important?</label>
+            <select class="form-control" id="diversity">
+              <option>yes</option>
+              <option>no</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="government">Do you believe in limited government?</label>
+            <select class="form-control" id="government">
+              <option>yes</option>
+              <option>no</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="market">Do you believe in free markets?</label>
+            <select class="form-control" id="market">
+              <option>yes</option>
+              <option>no</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-success">submit</button>
+        </form>
+      </div>
+      <div id="result">
+        <h3>Congratulations! You are a <span class="result"></span>!</h3>
+      </div>
+    </div>
+  </body>
+</html>
